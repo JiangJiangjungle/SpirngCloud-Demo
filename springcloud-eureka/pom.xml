@@ -11,6 +11,7 @@
     <artifactId>springcloud-eureka</artifactId>
     <version>${springcloud-demo.version}</version>
     <packaging>jar</packaging>
+
     <name>springcloud-eureka</name>
     <description>Demo project for Spring Eureka</description>
 

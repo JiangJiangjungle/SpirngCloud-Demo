@@ -9,9 +9,11 @@
         <artifactId>springcloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>springcloud-zuul</artifactId>
     <version>${springcloud-demo.version}</version>
     <packaging>jar</packaging>
+
     <name>springcloud-zuul</name>
     <description>Demo project for Spring Boot</description>
 
