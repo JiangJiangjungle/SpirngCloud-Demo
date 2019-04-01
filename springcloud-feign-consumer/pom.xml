@@ -8,11 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>springcloud-app</artifactId>
+    <artifactId>springcloud-feign-consumer</artifactId>
     <version>${springcloud-demo.version}</version>
     <packaging>jar</packaging>
 
-    <name>springcloud-app</name>
+    <name>springcloud-feign-consumer</name>
     <description>App for Spring Cloud Demo</description>
 
     <properties>
@@ -41,10 +41,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 

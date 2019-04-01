@@ -1,4 +1,4 @@
-package com.jsj.springcloudapp;
+package com.jsj.springcloudfeignconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class AppApplication {
+public class FeignConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppApplication.class, args);
+        SpringApplication.run(FeignConsumerApplication.class, args);
     }
 
 }

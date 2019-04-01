@@ -17,14 +17,19 @@
     <name>springcloud-zuul</name>
     <description>Demo project for Spring Boot</description>
 
+    <properties>
+        <ratelimit.version>1.5.1.RELEASE</ratelimit.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
         <dependency>
             <groupId>com.marcosbarbero.cloud</groupId>
             <artifactId>spring-cloud-zuul-ratelimit</artifactId>
+            <version>${ratelimit.version}</version>
         </dependency>
     </dependencies>
 
