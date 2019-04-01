@@ -18,6 +18,7 @@
         <module>springcloud-app</module>
         <module>springcloud-eureka</module>
         <module>springcloud-zuul</module>
+        <module>springcloud-config-server</module>
     </modules>
 
     <properties>
