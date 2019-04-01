@@ -1,0 +1,10 @@
+server:
+  port: 80
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      uri: http://localhost:7001/
+      profile: app
+      label: master
