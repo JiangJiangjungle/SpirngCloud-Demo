@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: eureka
 eureka:
   server:
     #关闭自我保护

@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/JiangJiangjungle/SpirngCloud-Demo
-          search-paths: config-repo
+          search-paths: config-repo/*
 #          username:
 #          password:
 eureka:

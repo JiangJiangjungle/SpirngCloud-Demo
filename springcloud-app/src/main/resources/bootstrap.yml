@@ -2,9 +2,9 @@ server:
   port: 80
 spring:
   application:
-    name: application
+    name: serviceA
   cloud:
     config:
       uri: http://localhost:7001/
-      profile: app
+      profile: dev
       label: master

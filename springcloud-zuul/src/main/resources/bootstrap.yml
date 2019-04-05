@@ -2,9 +2,9 @@ server:
   port: 8200
 spring:
   application:
-    name: application
+    name: zuul
   cloud:
     config:
       uri: http://localhost:7001/
-      profile: zuul
+      profile: dev
       label: master

@@ -2,9 +2,9 @@ server:
   port: 90
 spring:
   application:
-    name: application
+    name: consumer
   cloud:
     config:
       uri: http://localhost:7001/
-      profile: consumer
+      profile: dev
       label: master
