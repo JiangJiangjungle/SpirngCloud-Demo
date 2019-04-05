@@ -1,6 +1,7 @@
 spring:
   application:
     name: zuul
+  # 引入公共配置
   cloud:
     config:
       uri: http://localhost:7001/

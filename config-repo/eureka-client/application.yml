@@ -1,3 +1,4 @@
+# 本路径下的公共配置
 eureka:
   instance:
     # 指定该Eureka实例的主机名
