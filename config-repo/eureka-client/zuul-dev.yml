@@ -1,11 +1,8 @@
 spring:
   application:
     name: zuul
-  # 引入公共配置
-  cloud:
-    config:
-      uri: http://localhost:7001/
-      label: master
+  # 默认引入公共配置application.yml
+
 zuul:
   host:
     connect-timeout-millis: 10000
