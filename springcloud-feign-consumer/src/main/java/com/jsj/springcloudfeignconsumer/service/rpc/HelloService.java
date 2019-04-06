@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author jsj
  * @date 2019-03-31
  */
-@FeignClient(value = "app", fallback = HelloServiceFallbackImpl.class)
+@FeignClient(value = "serviceA", fallback = HelloServiceFallbackImpl.class)
 public interface HelloService {
 
     @GetMapping("/1")
