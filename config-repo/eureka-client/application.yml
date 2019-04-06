@@ -1,4 +1,13 @@
 # 本路径下的公共配置
+spring:
+  cloud:
+    stream:
+      #指定用kafka stream来作为默认消息中间件
+      default-binder: kafka
+      kafka:
+        binder:
+          #Kafka的服务端列表，默认localhost
+          brokers: 139.9.77.156:9092
 eureka:
   instance:
     # 指定该Eureka实例的主机名
