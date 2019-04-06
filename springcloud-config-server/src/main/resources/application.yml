@@ -11,6 +11,22 @@ spring:
           search-paths: config-repo/*
 #          username:
 #          password:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+    stream:
+      #指定用kafka stream来作为默认消息中间件
+      default-binder: kafka
+      kafka:
+        binder:
+          #Kafka的服务端列表，默认localhost
+          brokers: 139.9.77.156:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
 eureka:
   client:
     register-with-eureka: false

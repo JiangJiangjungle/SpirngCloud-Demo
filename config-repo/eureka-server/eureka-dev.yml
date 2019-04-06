@@ -16,3 +16,9 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+# 暴露bus-refresh接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
