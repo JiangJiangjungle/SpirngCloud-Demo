@@ -2,3 +2,5 @@ spring:
   application:
     name: serviceA
   # 默认引入公共配置application.yml
+test:
+  value: 666
